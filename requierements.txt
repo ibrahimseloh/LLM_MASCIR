@@ -1,1 +1,27 @@
+# Dépendances pour Google API
+google-auth==2.18.0
+google-auth-oauthlib==1.0.0
+google-api-python-client==2.77.0
 
+# Dépendances pour PostgreSQL
+psycopg2-binary==2.9.6
+
+# Dépendances pour envoi d'e-mails
+smtplib  # Note : généralement inclus dans la bibliothèque standard Python
+email     # Note : généralement inclus dans la bibliothèque standard Python
+
+# Dépendances pour la gestion des vidéos YouTube
+yt-dlp==2024.8.20
+
+# Dépendances pour la lecture de vidéos avec VLC
+python-vlc==3.0.12  # Assurez-vous que VLC est installé sur votre système
+
+# Dépendances pour la gestion de l'interface utilisateur
+pygame==2.5.0
+gtts==2.2.4  # Pour la conversion texte en parole
+
+# Dépendances pour l'interaction avec GPT-4
+openai==0.27.0
+
+# Dépendances pour la reconnaissance vocale
+speechrecognition==3.8.1
