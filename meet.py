@@ -9,7 +9,7 @@ from email.mime.text import MIMEText
 SCOPES = ['https://www.googleapis.com/auth/calendar.events']
 
 # Chemin vers le fichier credentials.json
-CREDENTIALS_FILE = 'credentials.json' #fichier-credential.json-à télécharger depuis la plateforme google console
+CREDENTIALS_FILE = 'fichier-credential' #fichier-credential.json-à télécharger depuis la plateforme google console
 
 def authenticate_google():
     # Initialiser le flux OAuth et demander l'authentification
