@@ -13,12 +13,12 @@ from meet import authenticate_google, ask_meeting_details, create_google_meet, s
 
 
 # Clés API
-openai.api_key = 'open-ai-api-key'
+openai.api_key = 'ENTER-open-ai-api-key'
 
 # Informations de connexion à la base de données PostgreSQL
-dbname = "Data-Base-Name"
+dbname = "ENTER-Data-Base-Name"
 user = "postgres"
-password = "Password"
+password = "ENTER-Password"
 host = "localhost"
 
 # Connexion à la base de données PostgreSQL
@@ -31,7 +31,7 @@ except psycopg2.Error as e:
 # Configurez l'API key YouTube
 api_service_name = "youtube"
 api_version = "v3"
-DEVELOPER_KEY = "youtube-API-KEY"
+DEVELOPER_KEY = "ENTER-youtube-API-KEY"
 
 # Classe pour gérer la reconnaissance vocale et la synthèse vocale
 class VoiceAssistant:
@@ -168,7 +168,7 @@ class YouTubeEntertainment:
     def __init__(self):
         self.api_service_name = "youtube"
         self.api_version = "v3"
-        self.DEVELOPER_KEY = "AIzaSyCjk7GlNw8IysC_M0jTGGFDlapUYUCMB78"
+        self.DEVELOPER_KEY = "ENTER-Youtube-API-KEY"
     
     def search_youtube(self, query):
         youtube = googleapiclient.discovery.build(self.api_service_name, self.api_version, developerKey=self.DEVELOPER_KEY)
